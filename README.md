@@ -1,5 +1,9 @@
 # Levenshtein Distance
 
+[![Build Status](https://travis-ci.org/julisch94/levenshtein.svg?branch=master)](https://travis-ci.org/julisch94/levenshtein)
+[![Coverage Status](https://coveralls.io/repos/github/julisch94/levenshtein/badge.svg?branch=master)](https://coveralls.io/github/julisch94/levenshtein?branch=master)
+[![GoDoc](https://godoc.org/github.com/julisch94/levenshtein?status.svg)](https://godoc.org/github.com/julisch94/levenshtein)
+
 Simple golang calculator for Leveshtein Distance. Using the techniques of **Clean Code**.
 
 ## Look inside
