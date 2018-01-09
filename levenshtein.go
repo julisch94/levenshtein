@@ -1,6 +1,6 @@
 package levenshtein
 
-func calculateDistance(firstWord string, secondWord string) int {
+func CalculateDistance(firstWord string, secondWord string) int {
 	// Create matrix
 	numOfColumns := len(firstWord) + 1
 	numOfRows := len(secondWord) + 1
