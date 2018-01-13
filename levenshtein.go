@@ -1,15 +1,12 @@
 package levenshtein
 
 func CalculateDistance(firstWord string, secondWord string) int {
-	// Create matrix
 	numOfColumns := len(firstWord) + 1
 	numOfRows := len(secondWord) + 1
 	distanceMatrix := createZeroedMatrix(numOfColumns, numOfRows)
 
-	// Prepare matrix
 	distanceMatrix = prepareMatrix(distanceMatrix)
 
-	// Run algorithmus
 	distanceMatrix = runLevenshteinAlgorithmOnMatrix(distanceMatrix, firstWord, secondWord)
 
 	// result distance is in the bottom right cell
